@@ -20,3 +20,4 @@ plan acme::configure (
   # In that case you can uncomment this to print the apply result and
   # figure out what went wrong.
   #out::message($apply_result)
+}
