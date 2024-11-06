@@ -3,7 +3,7 @@ name: acme
 concurrency: 3
 format: human
 modulepath:
-  - site-modules
+  - modules
 modules:
   - name: puppetlabs/concat
     version_requirement: '7.1.1'
