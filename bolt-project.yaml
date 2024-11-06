@@ -14,3 +14,6 @@ modules:
   - name: saz-timezone
     version_requirement: '6.1.0'
     resolve: false
+  - name: stm-debconf
+    version_requirement: '3.3.1'
+    resolve: false
