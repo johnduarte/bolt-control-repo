@@ -1,0 +1,16 @@
+---
+name: acme
+concurrency: 3
+format: human
+modulepath:
+  - site-modules
+modules:
+  - name: puppetlabs/concat
+    version_requirement: '7.1.1'
+    resolve: false
+  - name: puppetlabs/stdlib
+    version_requirement: '8.1.0'
+    resolve: false
+  - name: saz-timezone
+    version_requirement: '6.1.0'
+    resolve: false

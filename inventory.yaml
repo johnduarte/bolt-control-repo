@@ -1,0 +1,9 @@
+targets:
+  - uri: '62.101.209.12'
+    name: example-node
+    config:
+      transport: ssh
+config:
+  ssh:
+    host-key-check: false
+    user: root
