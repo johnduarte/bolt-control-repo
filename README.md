@@ -26,7 +26,7 @@ bolt-control-repo/
 │   └── common.yaml                       # Common data goes here.
 ├── inventory.yaml                        # Inventory of nodes to deploy to goes here.
 ├── keys/                                 # Eyaml keys go here.
-├── modules/                              # This directory contains site-specific modules and is added to $modulepath.
+├── site-modules/                         # This directory contains site-specific modules and is added to $modulepath.
 │   ├── profile/                          # The profile module.
 │   └── role/                             # The role module.
 ├── plans/                                # FIXME: Describe the purpose of this file
